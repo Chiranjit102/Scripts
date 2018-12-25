@@ -7,5 +7,7 @@ sonar.tests=.
 sonar.inclusions=**/test/java/servlet/createpage_junit.java
 sonar.test.exclusions=**/test/java/servlet/createpage_junit.java
 sonar.login=admin
-sonar.password=password
+sonar.password=admin
 
+#Goals:
+sonar:sonar -Dsonar.host.url=http://3.84.254.65:9000 -Dsonar.login=admin -Dsonar.password=admin
